@@ -20,6 +20,10 @@ body{
     align-items: center;
 }
 
+.btn-div{
+    display: inline;
+}
+
 .logo{
     padding-top: 80px;
 }
