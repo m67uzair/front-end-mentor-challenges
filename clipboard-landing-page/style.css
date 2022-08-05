@@ -1,0 +1,209 @@
+body{
+    font-size: 18px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 400;
+    margin-top: 0%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("images/bg-header-desktop.png");
+    background-size: cover;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo{
+    padding-top: 80px;
+}
+
+.heading-div{
+    text-align: center;
+    max-width: 79%;
+}
+
+h1,h4,h3{
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+}
+p{
+    color: hsl(201, 11%, 66%);
+    margin-top: 0px;
+}
+
+.ios-btn{
+    padding: 14px 25px;
+    border-radius: 22px;
+    color: beige;
+    background-color: hsl(171, 66%, 44%);
+    font-family: 'Bai Jamjuree', sans-serif;
+    border: 0px;
+    font-weight: 600;
+    margin-top: 35px;
+    margin-right: 25px;
+}
+.mac-btn{
+    padding: 14px 25px;
+    border-radius: 22px;
+    color: beige;
+    background-color: hsl(233, 100%, 69%);
+    font-family: 'Bai Jamjuree', sans-serif;
+    border: 0px;
+    font-weight: 600;
+    margin-top: 35px;
+}
+.snippets-div{
+    text-align: center;
+    max-width: 564.15px;
+    margin-top: 140px;
+}
+
+.computer-div{
+    display: flex;
+    align-items: center;
+    margin-top: 55px;
+}
+.computer-img{
+    position: relative;
+    left: -115px;
+}
+.computer-content-div{
+    max-width: 20%;
+}
+.comp-p{
+    margin-bottom: 65px;
+}
+
+.devices-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 140px;
+    width: 100%;
+}
+.devices-txt{
+    text-align: center;
+    max-width: 45%;
+}
+.devices-img{
+    margin-top: 100px;
+}
+.icons-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 80px;
+}
+.icon-content-div{
+    text-align: center;
+    max-width: 385px;
+    margin: 0px 20px;
+}
+.company-logos-div{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+.logo-img{
+    padding: 0 55px;
+}
+.clipboard-txt{
+    margin-top: 150px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    margin-top: 150px;
+    background-color: hsl(201deg 52% 97%);
+    padding: 30px 0px;
+}
+
+.span-div{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 370px;
+}
+.footer-txt{
+    margin-right: 10px;
+    color: hsl(210, 10%, 33%);
+}
+.footer-logo{
+    width: 70px;
+    margin: 0 130px;
+}
+.social-icons-div{
+    margin-left: 600px;
+}
+
+@media (max-width: 376px){
+    .heading-div{
+        display: flex;
+        max-width: 97%;
+        flex-direction: column;
+        justify-content: center;
+    }
+    button{
+        width: 85%;
+    }
+    .ios-btn{
+        margin-right: 0px;
+    }
+    .snippets-div{
+        margin-top: 80px;
+    }
+    .computer-div{
+        flex-direction: column;
+    }
+    .computer-img{
+        position: static;
+        max-width: 100%;
+    }
+    .computer-content-div{
+        max-width: 95%;
+        text-align: center;
+    }
+    .devices-txt{
+        max-width: 95%;
+    }
+
+    .devices-img{
+        max-width: 100%;
+    }
+    .icons-div{
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .icon-content-div{
+        margin-top: 70px;
+    }
+    .company-logos-div{
+        flex-direction: column;
+        margin-top: 100px;
+    }
+    .logo-img{
+        margin-top: 80px;
+    }
+    footer{
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .span-div{
+        flex-direction: column;
+        margin: 40px 0px;
+    }
+    .social-icons-div{
+        margin: 0px;
+    }
+}
