@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+  <title>Intro section with dropdown navigation</title>
+
+</head>
+
+<body>
+
+  <div class="container">
+
+    <nav>
+      <img class="logo" src="images/logo.svg" alt="" srcset="">
+      <div class="nav-items">
+        <ul>
+          <li id="features">Features <img src="images/icon-arrow-down.svg">
+            <ul id="features-ul">
+              <li><img src="images/icon-todo.svg">Todo List</li>
+              <li><img src="images/icon-calendar.svg">Calender</li>
+              <li><img src="images/icon-reminders.svg">Reminder</li>
+              <li><img src="images/icon-planning.svg">planning</li>
+            </ul>
+          </li>
+          <li id="company">Company <img src="images/icon-arrow-down.svg">
+            <ul id="company-ul">
+              <li>History</li>
+              <li>Our tean</li>
+              <li>Blog</li>
+            </ul>
+          </li>
+          <li>Careers</li>
+          <li>About</li>
+        </ul>
+
+        <div class="buttons">
+          <span id="login">Login</span>
+          <button id="register">Register</button>
+        </div>
+
+      </div>
+      <img id="menu-icon" src="images\icon-menu.svg">
+    </nav>
+
+
+    <div class="content">
+      <div class="text">
+        <h1>Make remote work</h1>
+        <p>Get your team in sync, no matter your location.
+          Streamline processes, create team rituals, and watch productivity soar.</p>
+        <button class="learn">Learn More</button>
+        <div class="icons">
+          <img src="images/client-databiz.svg">
+          <img src="images/client-audiophile.svg">
+          <img src="images/client-meet.svg">
+          <img src="images/client-maker.svg">
+        </div>
+      </div>
+      <div class="img">
+        <img id="hero" src="images/image-hero-desktop.png" alt="">
+      </div>
+    </div>
+
+    <!-- Features
+    Company
+    Careers
+    About
+
+    Login
+    Register
+
+    Make remote work
+
+    
+
+    Learn more -->
+
+  </div>
+
+  <div class="blur">
+    <div class="sidebar">
+      <div class="nav-items-mob">
+        <img id="close" src="images/icon-close-menu.svg">
+        <ul>
+          <li id="features">Features <img class="arrow" src="images/icon-arrow-down.svg">
+            <ul id="features-ul">
+              <li><img src="images/icon-todo.svg">Todo List</li>
+              <li><img src="images/icon-calendar.svg">Calender</li>
+              <li><img src="images/icon-reminders.svg">Reminder</li>
+              <li><img src="images/icon-planning.svg">planning</li>
+            </ul>
+          </li>
+          <li id="company">Company <img class="arrow" src="images/icon-arrow-down.svg">
+            <ul id="company-ul">
+              <li>History</li>
+              <li>Our tean</li>
+              <li>Blog</li>
+            </ul>
+          </li>
+          <li id="careers">Careers</li>
+          <li about="about">About</li>
+        </ul>
+
+        <div class="buttons">
+          <span id="login">Login</span>
+          <button id="register">Register</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+
+</html>

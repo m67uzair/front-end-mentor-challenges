@@ -1,0 +1,267 @@
+body {
+  background-color: hsl(0, 0%, 98%);
+  font-family: "Epilogue", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: hsl(0, 0%, 41%);
+  width: fit-content;
+}
+.container {
+  max-width: 1440px;
+}
+
+.sidebar{
+  display: none;
+}
+
+nav {
+  display: flex;
+  margin: 30px 0px;
+  background-color: hsl(0, 0%, 98%);
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-items {
+  display: flex;
+  margin-left: 50px;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.logo {
+  margin-left: 40px;
+}
+
+ul{
+  list-style: none;
+  position: relative;
+}
+
+div ul li ul li img{
+  margin-right: 10px;
+}
+
+li{
+  float: left;
+  margin: 0px 20px;
+}
+
+li ul{
+  position: absolute;
+  display: none;
+  top: 25px;
+  float: none;
+  background-color: white;
+  padding: 10px 0px;
+  box-shadow: 0px 0px 12px -5px;
+  border-radius: 10px;
+}
+
+#features-ul{
+  left: 32px;
+}
+
+li ul li{
+  float: none;
+  padding: 7px 0px;
+}
+
+#menu-icon{
+  display: none;
+}
+
+#register {
+  padding: 10px 20px;
+  border-radius: 15px;
+  font-size: 18px;
+  font-family: "Epilogue", sans-serif;
+  background-color: hsl(0, 0%, 98%);
+  color: hsl(0, 0%, 41%);
+}
+
+.content {
+  display: flex;
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 40px 0px;
+}
+
+.text {
+  padding: 0px 110px;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 63pt;
+  color: black;
+}
+
+p {
+  width: 75%;
+}
+
+.learn {
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-size: 18px;
+    margin-top: 60px;
+    font-family: "Epilogue", sans-serif;
+    color: white;
+    background-color: black;
+  }
+
+div .icons{
+    display: flex;
+    flex-direction: row;
+    margin-top: 118px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img{
+  max-width: 90%;
+}
+
+img#hero {
+  max-width: inherit;
+  margin: auto;
+  /* display: block; */
+}
+
+@media(max-width: 376px){
+
+  body{
+    margin: 0px;
+  }
+
+  container{
+    z-index: -1;
+  }
+
+  .sidebar{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 55%;
+    z-index: 1;
+    background-color: hsl(0, 0%, 98%);
+    bottom: 0px;
+    right: 0px;
+    float: right;
+    height: 100%;
+    padding: 0px 20px;
+
+  }
+
+  .blur{
+    /* display: none; */
+    z-index: 1000;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.75);
+  }
+  .nav-items-mob{
+    display: flex;
+    flex-direction: column;
+  }
+
+  #close{
+    align-self: flex-end;
+    margin-top: 15px;
+  }
+  
+  ul{
+    padding: 0px;
+  }
+
+  li{
+    padding: 0px;
+    margin: 0px;
+    float: none;
+  }
+
+  #features,#company,#careers,#about{
+    margin: 15px 0px;
+  }
+
+  #features-ul, #company-ul{
+    left: 32px;
+  }
+
+  ul li ul{
+    position: relative;
+    top: 0px;
+    display: block;
+    box-shadow: none;
+  }
+
+  .arrow{
+    margin-left: 10px;
+  }
+
+  .buttons{
+    text-align: center;
+  }
+
+  #login{
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+  #register{
+    width: 100%;
+  }
+
+
+
+  .content{
+    flex-direction: column-reverse;
+    max-width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .nav-items{
+    display: none;
+  }
+  #menu-icon{
+    display: inline;
+    margin-right: 14px;
+  }
+
+  .img{
+    max-width: 100%;
+  }
+
+  #hero{
+    content: url("images/image-hero-mobile.png");
+    width: 100%;
+  }
+
+  .text{
+    /* display: flex;
+    flex-direction: column; */
+    padding: 0px 10px;
+    text-align: center;
+  }
+
+  h1{
+    font-size: xx-large;
+  }
+  p{
+    width: 100%;
+  }
+  .learn{
+    margin-top: 10px;
+    margin-bottom: 50px;
+  }
+  div .icons{
+    margin-top: 0px;
+    margin-bottom: 60px;
+  }
+
+}
